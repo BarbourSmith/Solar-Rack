@@ -713,8 +713,8 @@
         {
             "atomType": "Molecule",
             "name": "Support Rails",
-            "x": 0.4742063492063492,
-            "y": 0.6707692307692308,
+            "x": 0.4656084656084656,
+            "y": 0.6676923076923077,
             "uniqueID": 824396,
             "ioValues": [],
             "topLevel": false,
@@ -789,8 +789,8 @@
                 {
                     "atomType": "Add-BOM-Tag",
                     "name": "Add BOM Tag",
-                    "x": 0.20701058201058203,
-                    "y": 0.43999999999999995,
+                    "x": 0.22023809523809526,
+                    "y": 0.4707692307692308,
                     "uniqueID": 376192,
                     "ioValues": [
                         {
@@ -800,8 +800,8 @@
                     ],
                     "BOMitem": {
                         "BOMitemName": "Support Rail",
-                        "numberNeeded": 40,
-                        "costUSD": 0.3,
+                        "numberNeeded": 2,
+                        "costUSD": 3.6,
                         "source": "www.example.com",
                         "totalNeeded": 1,
                         "radius": 0.015384615384615385
