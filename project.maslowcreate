@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Number Of Pannels",
-            "ioValue": 2
+            "ioValue": 3
         },
         {
             "name": "Angle",
@@ -34,28 +34,32 @@
             "ioValues": [
                 {
                     "name": "n",
-                    "ioValue": 2
+                    "ioValue": 3
                 }
             ],
             "currentEquation": "n*40"
         },
         {
             "atomType": "Equation",
-            "name": "(L-40*N%2)/(N-1)",
-            "x": 0.26587301587301587,
-            "y": 0.21230769230769234,
+            "name": "(L-40*(M%2))/(N-1)",
+            "x": 0.2374338624338624,
+            "y": 0.21846153846153848,
             "uniqueID": 666817,
             "ioValues": [
                 {
                     "name": "L",
-                    "ioValue": 80
+                    "ioValue": 120
                 },
                 {
                     "name": "N",
-                    "ioValue": 2
+                    "ioValue": 2.5
+                },
+                {
+                    "name": "M",
+                    "ioValue": 3
                 }
             ],
-            "currentEquation": "(L-40*N%2)/(N-1)"
+            "currentEquation": "(L-40*(M%2))/(N-1)"
         },
         {
             "atomType": "Equation",
@@ -66,7 +70,7 @@
             "ioValues": [
                 {
                     "name": "n",
-                    "ioValue": 2
+                    "ioValue": 3
                 }
             ],
             "currentEquation": "n/2 + 1"
@@ -261,11 +265,11 @@
             "ioValues": [
                 {
                     "name": "Spacing",
-                    "ioValue": 80
+                    "ioValue": 53.333333333333336
                 },
                 {
                     "name": "Number",
-                    "ioValue": 2
+                    "ioValue": 2.5
                 }
             ],
             "simplify": false
@@ -1026,7 +1030,7 @@
                 },
                 {
                     "name": "Number",
-                    "ioValue": 2
+                    "ioValue": 3
                 }
             ],
             "simplify": false
@@ -1182,6 +1186,13 @@
             "ap2Primary": false,
             "ap1ID": 847302,
             "ap2ID": 218889
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "M",
+            "ap2Primary": false,
+            "ap1ID": 847302,
+            "ap2ID": 666817
         },
         {
             "ap1Name": "Geometry",
