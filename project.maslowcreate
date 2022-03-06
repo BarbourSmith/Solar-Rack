@@ -145,8 +145,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear Pattern",
-            "x": 0.4748677248677248,
-            "y": 0.5292307692307692,
+            "x": 0.45568783068783075,
+            "y": 0.5415384615384615,
             "uniqueID": 237970,
             "projectID": "304166099",
             "ioValues": [
@@ -189,7 +189,7 @@
         {
             "atomType": "Molecule",
             "name": "Solar Panel",
-            "x": 0.19444444444444442,
+            "x": 0.19510582010582012,
             "y": 0.836923076923077,
             "uniqueID": 925065,
             "ioValues": [],
@@ -311,8 +311,8 @@
                 {
                     "atomType": "Add-BOM-Tag",
                     "name": "Add BOM Tag",
-                    "x": 0.7559523809523809,
-                    "y": 0.5384615384615384,
+                    "x": 0.7089947089947091,
+                    "y": 0.5323076923076923,
                     "uniqueID": 182557,
                     "ioValues": [
                         {
@@ -330,6 +330,31 @@
                     }
                 },
                 {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.8538359788359788,
+                    "y": 0.4707692307692308,
+                    "uniqueID": 806633,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/925065/182557Add-BOM-Tag"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 19.5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 32.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9867724867724867,
@@ -338,7 +363,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "source/470701/925065/182557Add-BOM-Tag"
+                            "ioValue": "source/470701/925065/806633Move"
                         }
                     ]
                 }
@@ -395,9 +420,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 182557,
+                    "ap2ID": 806633
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 182557,
+                    "ap1ID": 806633,
                     "ap2ID": 496847
                 }
             ],
@@ -411,7 +443,12 @@
             "x": 0.9867724867724867,
             "y": 0.5,
             "uniqueID": 625304,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "source/470701/237970GitHubMolecule"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -428,6 +465,13 @@
             "ap2Primary": false,
             "ap1ID": 935809,
             "ap2ID": 491869
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 237970,
+            "ap2ID": 625304
         },
         {
             "ap1Name": "geometry",
