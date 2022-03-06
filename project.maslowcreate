@@ -4,9 +4,135 @@
     "x": 0,
     "y": 0,
     "uniqueID": 470701,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Number Of Pannels",
+            "ioValue": 4
+        },
+        {
+            "name": "Angle",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
+        {
+            "atomType": "Input",
+            "name": "Number Of Pannels",
+            "x": 0.013333333333333334,
+            "y": 0.41538461538461535,
+            "uniqueID": 847302,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Angle",
+            "x": 0.013333333333333334,
+            "y": 0.6246153846153847,
+            "uniqueID": 935809,
+            "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Stanchion",
+            "x": 0.25727513227513227,
+            "y": 0.5846153846153846,
+            "uniqueID": 846039,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.28240740740740744,
+                    "y": 0.40923076923076923,
+                    "uniqueID": 898327,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/846039/127465Circle"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.11441798941798942,
+                    "y": 0.6,
+                    "uniqueID": 127465,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 1.25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.49603174603174605,
+                    "y": 0.6092307692307692,
+                    "uniqueID": 273750,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/846039/898327Extrude"
+                        }
+                    ],
+                    "BOMitem": {
+                        "BOMitemName": "Quick Mount PV QBase Low Slope Mount",
+                        "numberNeeded": 1,
+                        "costUSD": 15.29,
+                        "source": "https://www.solarflexion.com/product-p/qmlsh-7-a-12.htm",
+                        "totalNeeded": 1,
+                        "radius": 0.015384615384615385
+                    }
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9867724867724867,
+                    "y": 0.5,
+                    "uniqueID": 298430,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "source/470701/846039/273750Add-BOM-Tag"
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 898327,
+                    "ap2ID": 273750
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 127465,
+                    "ap2ID": 898327
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 273750,
+                    "ap2ID": 298430
+                }
+            ],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
+        },
         {
             "atomType": "Output",
             "name": "Output",
