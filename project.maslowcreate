@@ -11,32 +11,16 @@
         },
         {
             "name": "Angle",
-            "ioValue": 10
+            "ioValue": -20
         }
     ],
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Input",
-            "name": "Number Of Pannels",
-            "x": 0.013333333333333334,
-            "y": 0.41538461538461535,
-            "uniqueID": 847302,
-            "ioValues": []
-        },
-        {
-            "atomType": "Input",
-            "name": "Angle",
-            "x": 0.013333333333333334,
-            "y": 0.6246153846153847,
-            "uniqueID": 935809,
-            "ioValues": []
-        },
-        {
             "atomType": "Molecule",
             "name": "Stanchion",
-            "x": 0.25727513227513227,
-            "y": 0.5846153846153846,
+            "x": 0.20965608465608468,
+            "y": 0.34153846153846157,
             "uniqueID": 846039,
             "ioValues": [],
             "topLevel": false,
@@ -70,6 +54,15 @@
                             "ioValue": 1.25
                         }
                     ]
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.5846560846560847,
+                    "y": 0.3384615384615385,
+                    "uniqueID": 667878,
+                    "ioValues": [],
+                    "readmeText": "https://www.ecodirect.com/ProductDetails.asp?ProductCode=IronRidge%2D51%2D6007%2D500L is another stand off option"
                 },
                 {
                     "atomType": "Add-BOM-Tag",
@@ -134,6 +127,285 @@
             "unitsIndex": 0
         },
         {
+            "atomType": "Input",
+            "name": "Number Of Pannels",
+            "x": 0.013333333333333334,
+            "y": 0.41538461538461535,
+            "uniqueID": 847302,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Angle",
+            "x": 0.013333333333333334,
+            "y": 0.6246153846153847,
+            "uniqueID": 935809,
+            "ioValues": []
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Linear Pattern",
+            "x": 0.4748677248677248,
+            "y": 0.5292307692307692,
+            "uniqueID": 237970,
+            "projectID": "304166099",
+            "ioValues": [
+                {
+                    "name": "Spacing",
+                    "ioValue": 40
+                },
+                {
+                    "name": "Number",
+                    "ioValue": 4
+                }
+            ],
+            "simplify": false
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.3683862433862434,
+            "y": 0.6799999999999999,
+            "uniqueID": 491869,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/470701/925065Molecule"
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": -20
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Solar Panel",
+            "x": 0.19444444444444442,
+            "y": 0.836923076923077,
+            "uniqueID": 925065,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.19113756613756613,
+                    "y": 0.38769230769230767,
+                    "uniqueID": 168107,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 39
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 65
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3558201058201058,
+                    "y": 0.3046153846153846,
+                    "uniqueID": 990094,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/925065/168107Rectangle"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 1.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.4801587301587301,
+                    "y": 0.15384615384615385,
+                    "uniqueID": 662657,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/925065/990094Extrude"
+                        }
+                    ],
+                    "selectedColorIndex": "18"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.21494708994708994,
+                    "y": 0.676923076923077,
+                    "uniqueID": 483139,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 37
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 62
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.4847883597883598,
+                    "y": 0.5476923076923077,
+                    "uniqueID": 225764,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/925065/323566Extrude"
+                        }
+                    ],
+                    "selectedColorIndex": "19"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3386243386243386,
+                    "y": 0.6492307692307692,
+                    "uniqueID": 323566,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/925065/483139Rectangle"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 1.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.611111111111111,
+                    "y": 0.41538461538461535,
+                    "uniqueID": 570682,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": "source/470701/925065/662657Color"
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": "source/470701/925065/225764Color"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.7559523809523809,
+                    "y": 0.5384615384615384,
+                    "uniqueID": 182557,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/925065/570682Assembly"
+                        }
+                    ],
+                    "BOMitem": {
+                        "BOMitemName": "400 Watt Solar Pannel",
+                        "numberNeeded": 1,
+                        "costUSD": 312,
+                        "source": "https://www.ecodirect.com/Canadian-Solar-CS1Y-400W-All-Black-Solar-Panel-p/canadian-solar-cs1y-400m5.htm",
+                        "totalNeeded": 1,
+                        "radius": 0.015384615384615385
+                    }
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9867724867724867,
+                    "y": 0.5,
+                    "uniqueID": 496847,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "source/470701/925065/182557Add-BOM-Tag"
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 168107,
+                    "ap2ID": 990094
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 990094,
+                    "ap2ID": 662657
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 662657,
+                    "ap2ID": 570682
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 483139,
+                    "ap2ID": 323566
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 225764,
+                    "ap2ID": 570682
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 323566,
+                    "ap2ID": 225764
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 570682,
+                    "ap2ID": 182557
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 182557,
+                    "ap2ID": 496847
+                }
+            ],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9867724867724867,
@@ -142,7 +414,36 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Number",
+            "ap2Primary": false,
+            "ap1ID": 847302,
+            "ap2ID": 237970
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x-axis degrees",
+            "ap2Primary": false,
+            "ap1ID": 935809,
+            "ap2ID": 491869
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape",
+            "ap2Primary": false,
+            "ap1ID": 491869,
+            "ap2ID": 237970
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 925065,
+            "ap2ID": 491869
+        }
+    ],
     "fileTypeVersion": 1,
     "simplify": false,
     "unitsIndex": 0,
