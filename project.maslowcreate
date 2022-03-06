@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Number Of Pannels",
-            "ioValue": 4
+            "ioValue": 2
         },
         {
             "name": "Angle",
@@ -28,45 +28,45 @@
         {
             "atomType": "Equation",
             "name": "n*40",
-            "x": 0.10515873015873016,
-            "y": 0.13538461538461538,
+            "x": 0.10251322751322753,
+            "y": 0.15076923076923077,
             "uniqueID": 218889,
             "ioValues": [
                 {
                     "name": "n",
-                    "ioValue": 4
+                    "ioValue": 2
                 }
             ],
             "currentEquation": "n*40"
         },
         {
             "atomType": "Equation",
-            "name": "L/(N-1)",
-            "x": 0.2916666666666667,
-            "y": 0.15692307692307694,
+            "name": "(L-40*N%2)/(N-1)",
+            "x": 0.26587301587301587,
+            "y": 0.21230769230769234,
             "uniqueID": 666817,
             "ioValues": [
                 {
                     "name": "L",
-                    "ioValue": 160
+                    "ioValue": 80
                 },
                 {
                     "name": "N",
-                    "ioValue": 3
+                    "ioValue": 2
                 }
             ],
-            "currentEquation": "L/(N-1)"
+            "currentEquation": "(L-40*N%2)/(N-1)"
         },
         {
             "atomType": "Equation",
             "name": "n/2 + 1",
-            "x": 0.11044973544973545,
-            "y": 0.37538461538461537,
+            "x": 0.10912698412698413,
+            "y": 0.3446153846153846,
             "uniqueID": 544246,
             "ioValues": [
                 {
                     "name": "n",
-                    "ioValue": 4
+                    "ioValue": 2
                 }
             ],
             "currentEquation": "n/2 + 1"
@@ -81,27 +81,10 @@
             "readmeText": "Number of Stancheons"
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.21693121693121695,
-            "y": 0.4553846153846154,
-            "uniqueID": 859831,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": "source/470701/846039Molecule"
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": "source/470701/701687Molecule"
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Riser",
-            "x": 0.1541005291005291,
-            "y": 0.49846153846153846,
+            "x": 0.11772486772486772,
+            "y": 0.483076923076923,
             "uniqueID": 701687,
             "ioValues": [],
             "topLevel": false,
@@ -252,6 +235,42 @@
             "unitsIndex": 0
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.21693121693121695,
+            "y": 0.4553846153846154,
+            "uniqueID": 859831,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": "source/470701/846039Molecule"
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": "source/470701/701687Molecule"
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Linear Pattern",
+            "x": 0.46164021164021163,
+            "y": 0.23076923076923078,
+            "uniqueID": 387236,
+            "projectID": "304166099",
+            "ioValues": [
+                {
+                    "name": "Spacing",
+                    "ioValue": 80
+                },
+                {
+                    "name": "Number",
+                    "ioValue": 2
+                }
+            ],
+            "simplify": false
+        },
+        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.3101851851851852,
@@ -277,25 +296,6 @@
             ]
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "Linear Pattern",
-            "x": 0.4576719576719577,
-            "y": 0.31076923076923074,
-            "uniqueID": 387236,
-            "projectID": "304166099",
-            "ioValues": [
-                {
-                    "name": "Spacing",
-                    "ioValue": 80
-                },
-                {
-                    "name": "Number",
-                    "ioValue": 3
-                }
-            ],
-            "simplify": false
-        },
-        {
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.38756613756613756,
@@ -315,7 +315,7 @@
         {
             "atomType": "Molecule",
             "name": "Stanchion",
-            "x": 0.14219576719576718,
+            "x": 0.12301587301587302,
             "y": 0.6461538461538461,
             "uniqueID": 846039,
             "ioValues": [],
@@ -1026,7 +1026,7 @@
                 },
                 {
                     "name": "Number",
-                    "ioValue": 4
+                    "ioValue": 2
                 }
             ],
             "simplify": false
@@ -1100,6 +1100,13 @@
             "ap2ID": 666817
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 701687,
+            "ap2ID": 859831
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -1110,8 +1117,8 @@
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
-            "ap1ID": 701687,
-            "ap2ID": 859831
+            "ap1ID": 387236,
+            "ap2ID": 830928
         },
         {
             "ap1Name": "geometry",
@@ -1119,13 +1126,6 @@
             "ap2Primary": false,
             "ap1ID": 687082,
             "ap2ID": 943824
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 387236,
-            "ap2ID": 830928
         },
         {
             "ap1Name": "geometry",
