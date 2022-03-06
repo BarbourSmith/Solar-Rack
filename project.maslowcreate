@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Number Of Pannels",
-            "ioValue": 3
+            "ioValue": 7
         },
         {
             "name": "Angle",
@@ -34,32 +34,32 @@
             "ioValues": [
                 {
                     "name": "n",
-                    "ioValue": 3
+                    "ioValue": 7
                 }
             ],
             "currentEquation": "n*40"
         },
         {
             "atomType": "Equation",
-            "name": "(L-40*(M%2))/(N-1)",
-            "x": 0.2374338624338624,
-            "y": 0.21846153846153848,
+            "name": "(L-32*(M%2))/(N-1)",
+            "x": 0.23214285714285715,
+            "y": 0.21230769230769234,
             "uniqueID": 666817,
             "ioValues": [
                 {
                     "name": "L",
-                    "ioValue": 120
+                    "ioValue": 280
                 },
                 {
                     "name": "N",
-                    "ioValue": 2.5
+                    "ioValue": 4.5
                 },
                 {
                     "name": "M",
-                    "ioValue": 3
+                    "ioValue": 7
                 }
             ],
-            "currentEquation": "(L-40*(M%2))/(N-1)"
+            "currentEquation": "(L-32*(M%2))/(N-1)"
         },
         {
             "atomType": "Equation",
@@ -70,7 +70,7 @@
             "ioValues": [
                 {
                     "name": "n",
-                    "ioValue": 3
+                    "ioValue": 7
                 }
             ],
             "currentEquation": "n/2 + 1"
@@ -265,11 +265,11 @@
             "ioValues": [
                 {
                     "name": "Spacing",
-                    "ioValue": 53.333333333333336
+                    "ioValue": 70.85714285714286
                 },
                 {
                     "name": "Number",
-                    "ioValue": 2.5
+                    "ioValue": 4.5
                 }
             ],
             "simplify": false
@@ -1030,7 +1030,7 @@
                 },
                 {
                     "name": "Number",
-                    "ioValue": 3
+                    "ioValue": 7
                 }
             ],
             "simplify": false
