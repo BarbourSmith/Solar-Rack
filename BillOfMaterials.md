@@ -2,6 +2,10 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|400 Watt Solar Pannel|4|$1248.00|https://www.ecodirect.com/Canadian-Solar-CS1Y-400W-All-Black-Solar-Panel-p/canadian-solar-cs1y-400m5.htm|
+|Quick Mount PV QBase Low Slope Mount|6|$91.74|https://www.solarflexion.com/product-p/qmlsh-7-a-12.htm|
+|Support Rail|16|$28.80|www.example.com|
+|Riser|3|$18.00|www.example.com|
+|Total: |29|$1386.54| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $4159.62
