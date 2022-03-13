@@ -23,7 +23,8 @@
             "y": 0.15384615384615385,
             "uniqueID": 891811,
             "ioValues": [],
-            "readmeText": "Total Length"
+            "readmeText": "Total Length",
+            "global": true
         },
         {
             "atomType": "Equation",
@@ -82,7 +83,8 @@
             "y": 0.4,
             "uniqueID": 228697,
             "ioValues": [],
-            "readmeText": "Number of Stancheons"
+            "readmeText": "Number of Stancheons",
+            "global": true
         },
         {
             "atomType": "Molecule",
@@ -362,7 +364,8 @@
                     "y": 0.3384615384615385,
                     "uniqueID": 667878,
                     "ioValues": [],
-                    "readmeText": "https://www.ecodirect.com/ProductDetails.asp?ProductCode=IronRidge%2D51%2D6007%2D500L is another stand off option"
+                    "readmeText": "https://www.ecodirect.com/ProductDetails.asp?ProductCode=IronRidge%2D51%2D6007%2D500L is another stand off option",
+                    "global": true
                 },
                 {
                     "atomType": "Add-BOM-Tag",
@@ -486,8 +489,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.21494708994708994,
-                    "y": 0.676923076923077,
+                    "x": 0.0965682362330407,
+                    "y": 0.6707692307692308,
                     "uniqueID": 483139,
                     "ioValues": [
                         {
@@ -501,23 +504,9 @@
                     ]
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.4847883597883598,
-                    "y": 0.5476923076923077,
-                    "uniqueID": 225764,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "source/470701/925065/323566Extrude"
-                        }
-                    ],
-                    "selectedColorIndex": "19"
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3386243386243386,
+                    "x": 0.21388667198723066,
                     "y": 0.6492307692307692,
                     "uniqueID": 323566,
                     "ioValues": [
@@ -528,6 +517,37 @@
                         {
                             "name": "height",
                             "ioValue": 1.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.3455706304868316,
+                    "y": 0.6184615384615384,
+                    "uniqueID": 225764,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/925065/323566Extrude"
+                        }
+                    ],
+                    "selectedColorIndex": "19"
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 0.4660814046288907,
+                    "y": 0.5692307692307692,
+                    "uniqueID": 913028,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/470701/925065/225764Color"
+                        },
+                        {
+                            "name": "tag",
+                            "ioValue": "Solar"
                         }
                     ]
                 },
@@ -543,8 +563,8 @@
                             "ioValue": "source/470701/925065/662657Color"
                         },
                         {
-                            "name": "3D shape 2",
-                            "ioValue": "source/470701/925065/225764Color"
+                            "name": "3D shape 3",
+                            "ioValue": "source/470701/925065/913028Tag"
                         }
                     ]
                 },
@@ -639,17 +659,24 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 225764,
-                    "ap2ID": 570682
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 323566,
+                    "ap2ID": 225764
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 323566,
-                    "ap2ID": 225764
+                    "ap1ID": 225764,
+                    "ap2ID": 913028
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 913028,
+                    "ap2ID": 570682
                 },
                 {
                     "ap1Name": "geometry",
